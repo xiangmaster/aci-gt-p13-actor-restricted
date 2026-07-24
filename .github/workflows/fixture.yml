@@ -1,0 +1,11 @@
+name: Ground Truth P13-E01
+on:
+  issues:
+    types: [opened]
+permissions: read-all
+jobs:
+  fixture:
+    if: ${{ false }}
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo P13-E01
