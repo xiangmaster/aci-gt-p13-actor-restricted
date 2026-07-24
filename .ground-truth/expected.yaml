@@ -1,0 +1,10 @@
+id: P13-E01
+repository: aci-gt-p13-actor-restricted
+visibility: public
+stage: P1
+rule: P1.3
+kind: experiment
+atomic_variable: "Actor Rule 只允许 write role"
+expected_status: BLOCKED
+setup: MANUAL_UI
+configuration_state: PENDING_MANUAL
